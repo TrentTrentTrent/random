@@ -1,7 +1,6 @@
 window.addEventListener("load", function () {
     if (document.querySelector("span.tooltip-pastnames") !== null){ 
         var prevnames = document.querySelector("span.tooltip-pastnames").getAttribute("data-original-title").split(", ");
-        console.log('previous usernames: '+ prevnames.length + ' robux:' + prevnames.length + '000')
         var usernameusernames = 'Username'
         if (prevnames.length > 1){
             usernameusernames = 'Usernames'
